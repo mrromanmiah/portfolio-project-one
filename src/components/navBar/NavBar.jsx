@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-
 const NavBar = () => {
     return (
         <div className="drawer">
@@ -8,7 +7,7 @@ const NavBar = () => {
                 {/* Navbar */}
                 <div className="w-full navbar bg-[#91ff00] bg-opacity-10 lg:px-20">
                     <div className="flex-none lg:hidden">
-                        <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost">
+                        <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                         </label>
                     </div>
@@ -18,35 +17,29 @@ const NavBar = () => {
                     <div className="flex-none hidden lg:block">
                         <ul className="menu menu-horizontal text-white text-xs items-center">
                             {/* Navbar menu content here */}
-                            <NavLink><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Home</a></li></NavLink>
-                            <NavLink><li className="hover:border-b-2 hover:border-[#91ff00]"><a>About Me</a></li></NavLink>
-                            <NavLink><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Projects</a></li></NavLink>
-                            <NavLink><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Services</a></li></NavLink>
-                            <NavLink><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Contact</a></li></NavLink>
-                            
+                            <NavLink to='/'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Home</a></li></NavLink>
+                            <NavLink to='/aboutMe'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>About Me</a></li></NavLink>
+                            <NavLink to='/myProjects'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Projects</a></li></NavLink>
+                            <NavLink to='/'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Services</a></li></NavLink>
+                            <NavLink to='/contactMe'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Contact</a></li></NavLink>
+
                             <button className="bg-[#91ff00] border-2 border-[#91ff00] px-4 py-2 text-black font-semibold rounded ml-6 hover:border-2 hover:border-[#91ff00] hover:bg-[#91ff00] hover:bg-opacity-10 hover:text-white">Hire Me</button>
                         </ul>
                     </div>
                 </div>
                 {/* Page content here */}
-                Content
-
-
-
-
-
-
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu p-4 w-80 min-h-full bg-base-200">
                     {/* Sidebar content here */}
-                    <li><a>Home</a></li>
-                    <li><a>About Me</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Contact</a></li>
-                    <button className="bg-[#91ff00] px-4 py-2 text-black font-medium rounded">Hire Me</button>
+                    <NavLink to='/'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Home</a></li></NavLink>
+                    <NavLink to='/aboutMe'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>About Me</a></li></NavLink>
+                    <NavLink to='/myProjects'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Projects</a></li></NavLink>
+                    <NavLink to='/'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Services</a></li></NavLink>
+                    <NavLink to='/contactMe'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Contact</a></li></NavLink>
+
+                    <button className="bg-[#91ff00] border-2 border-[#91ff00] px-4 py-2 text-black font-semibold rounded ml-6 hover:border-2 hover:border-[#91ff00] hover:bg-[#91ff00] hover:bg-opacity-10 hover:text-white">Hire Me</button>
                 </ul>
             </div>
         </div>
