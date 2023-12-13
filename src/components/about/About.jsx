@@ -6,7 +6,7 @@ const About = () => {
             <div>
                 <h1 className="text-3xl text-[#91ff00] font-bold text-center">About Me</h1>
             </div>
-            <div className="lg:flex justify-between mt-20 lg:gap-20">
+            <div className="lg:flex justify-between items-center mt-10 lg:gap-20">
                 <div className="lg:w-1/2">
                     <img src="https://i.ibb.co/ZHLVnmb/Asset-4.png" alt="" />
                 </div>

@@ -65,10 +65,12 @@ const Contact = () => {
                         </div>
                     </form>
                 </div>
-                <div className="text-xl font-semibold mt-20">
-                    <p className="flex items-center gap-4 text-white"><FaHome className="text-[#91ff00]"></FaHome> Motijheel, Dhaka, Bangladesh</p>
-                    <p className="flex items-center gap-4 text-white"><FaEnvelope className="text-[#91ff00]"></FaEnvelope> mrromanmiah@gmail.com</p>
-                    <p className="flex items-center gap-4 text-white"><FaMobile className="text-[#91ff00]"></FaMobile> +880 17XX XXXXXX</p>
+                <div className="text-base mt-20 flex justify-between">
+                    <p className="flex items-center gap-4 text-white"><span className="border-2 border-[#91ff00] rounded-full p-8"><FaMobile className="text-[#91ff00] text-2xl"></FaMobile></span> (+880) 1712 345678</p>
+                    <p className="flex items-center gap-4 text-white"><span className="border-2 border-[#91ff00] rounded-full p-8"><FaEnvelope className="text-[#91ff00] text-2xl"></FaEnvelope></span> mrromanmiah@gmail.com</p>
+                    <p className="flex items-center gap-4 text-white"><span className="border-2 border-[#91ff00] rounded-full p-8"><FaHome className="text-[#91ff00] text-2xl"></FaHome></span> Motijheel, Dhaka, Bangladesh</p>
+
+
                 </div>
 
             </div>
