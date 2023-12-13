@@ -16,6 +16,7 @@ const About = () => {
                     <p className="text-white text-sm text-justify mt-6">What excites me most is the ability to bring ideas to life through code. Whether it's designing sleek user interfaces, optimizing back-end processes, or creating seamless interactions. </p>
                     <p className="text-white text-sm text-justify mt-6">Armed with a solid foundation in MERN, I enjoy the challenge of building scalable and efficient applications. </p>
                     <p className="text-white text-sm text-justify mt-6">Let's collaborate and turn your vision into a digital reality. Whether it's a sleek website or a robust web application, I'm here to bring creativity and functionality to the forefront.</p>
+                <img className="w-1/3 mt-3" src="https://i.ibb.co/mrKRMZv/Sign.png" alt="" />
                 </div>
             </div>
 
