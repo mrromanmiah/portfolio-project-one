@@ -4,7 +4,6 @@ const NavBar = () => {
         <div className="drawer">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
-                {/* Navbar */}
                 <div className="w-full navbar bg-[#91ff00] bg-opacity-10 lg:px-20">
                     <div className="flex-none lg:hidden">
                         <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost text-white">
@@ -16,7 +15,6 @@ const NavBar = () => {
                     <div className="flex-1 px-2 mx-2 text-3xl font-bold text-white">roman <span className="text-[#91ff00]">.</span></div>
                     <div className="flex-none hidden lg:block">
                         <ul className="menu menu-horizontal text-white text-xs items-center">
-                            {/* Navbar menu content here */}
                             <NavLink to='/'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Home</a></li></NavLink>
                             <NavLink to='/aboutMe'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>About Me</a></li></NavLink>
                             <NavLink to='/myProjects'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Projects</a></li></NavLink>
@@ -27,12 +25,10 @@ const NavBar = () => {
                         </ul>
                     </div>
                 </div>
-                {/* Page content here */}
             </div>
             <div className="drawer-side">
                 <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
                 <ul className="menu p-4 w-80 min-h-full bg-base-200">
-                    {/* Sidebar content here */}
                     <NavLink to='/'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Home</a></li></NavLink>
                     <NavLink to='/aboutMe'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>About Me</a></li></NavLink>
                     <NavLink to='/myProjects'><li className="hover:border-b-2 hover:border-[#91ff00]"><a>Projects</a></li></NavLink>

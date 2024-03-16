@@ -66,9 +66,9 @@ const Contact = () => {
                     </form>
                 </div>
                 <div className="text-base mt-20 lg:flex md:flex-none flex-none justify-between lg:space-y-0 md:space-y-3 space-y-3">
-                    <p className="flex items-center gap-4 text-white"><span className="border-2 border-[#91ff00] rounded-full lg:p-8 md:p-6 p-4"><FaMobile className="text-[#91ff00] text-2xl"></FaMobile></span> (+880) 1712 345678</p>
+                    <p className="flex items-center gap-4 text-white"><span className="border-2 border-[#91ff00] rounded-full lg:p-8 md:p-6 p-4"><FaMobile className="text-[#91ff00] text-2xl"></FaMobile></span> (+880) 1743 071819</p>
                     <p className="flex items-center gap-4 text-white"><span className="border-2 border-[#91ff00] rounded-full lg:p-8 md:p-6 p-4"><FaEnvelope className="text-[#91ff00] text-2xl"></FaEnvelope></span> mrromanmiah@gmail.com</p>
-                    <p className="flex items-center gap-4 text-white"><span className="border-2 border-[#91ff00] rounded-full lg:p-8 md:p-6 p-4"><FaHome className="text-[#91ff00] text-2xl"></FaHome></span> Motijheel, Dhaka, Bangladesh</p>
+                    <p className="flex items-center gap-4 text-white"><span className="border-2 border-[#91ff00] rounded-full lg:p-8 md:p-6 p-4"><FaHome className="text-[#91ff00] text-2xl"></FaHome></span> Savar, Dhaka, Bangladesh</p>
 
 
                 </div>
