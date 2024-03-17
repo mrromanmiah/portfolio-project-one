@@ -5,7 +5,7 @@ const Education = () => {
     <div className="my-20 lg:mx-40 md:mx-20 mx-10">
       <div>
         <h1 className="text-3xl text-[#91ff00] font-bold text-center">Education</h1>
-        <p className="text-white text-sm text-center pt-5 w-1/2 mx-auto">Continuous learning mindset for staying updated with latest technologies.</p>
+        <p className="text-white text-sm text-center pt-5 w-1/2 mx-auto">Academic Journey and Achievements to Build Knowledge</p>
       </div>
 
       <div className="mt-10">

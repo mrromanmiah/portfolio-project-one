@@ -30,7 +30,8 @@ const Contact = () => {
     return (
         <div className="mt-20 lg:mx-40 md:mx-20 mx-10 mb-20">
             <div>
-                <h1 className="text-3xl text-[#91ff00] font-bold text-center">Contact</h1>
+                <h1 className="text-3xl text-[#91ff00] font-bold text-center">Get In Touch</h1>
+                <p className="text-white text-sm text-center pt-5 w-1/2 mx-auto">Reach Out for Collaboration or Inquiries</p>
             </div>
 
 
