@@ -15,51 +15,51 @@ const Skills = () => {
 
                     <div className=" items-center text-center space-y-4 bg-[#1d2e07] py-6 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-11 flex items-center mx-auto" src="https://i.ibb.co/kmVbC4z/pngwing-com.png" alt="" />
-                        <h2 className="text-white font-bold">HTML</h2>
+                        <h2 className="text-white font-medium text-sm">HTML</h2>
                     </div>
                     <div className=" items-center text-center space-y-4 bg-[#1d2e07] py-5 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-14 flex items-center mx-auto" src="https://i.ibb.co/LkdJMFY/pngwing-com-8.png" alt="" />
-                        <h2 className="text-white font-bold">CSS</h2>
+                        <h2 className="text-white font-medium text-sm">CSS</h2>
                     </div>
                     <div className=" items-center text-center space-y-5 bg-[#1d2e07] pb-5 pt-8 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-16 flex items-center mx-auto" src="https://i.ibb.co/L5q55tt/pngwing-com-1.png" alt="" />
-                        <h2 className="text-white font-bold">Tailwind CSS</h2>
+                        <h2 className="text-white font-medium text-sm">Tailwind CSS</h2>
                     </div>
                     <div className=" items-center text-center space-y-5 bg-[#1d2e07] py-6 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-14 flex items-center mx-auto" src="https://i.ibb.co/F0WLWRZ/pngwing-com-9.png" alt="" />
-                        <h2 className="text-white font-bold">Bootstrap</h2>
+                        <h2 className="text-white font-medium text-sm">Bootstrap</h2>
                     </div>
                     <div className=" items-center text-center space-y-4 bg-[#1d2e07] py-5 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-11 flex items-center mx-auto" src="https://i.ibb.co/18fJWM7/pngwing-com-2.png" alt="" />
-                        <h2 className="text-white font-bold">JavaScript</h2>
+                        <h2 className="text-white font-medium text-sm">JavaScript</h2>
                     </div>
                     <div className=" items-center text-center space-y-4 bg-[#1d2e07] pb-5 pt-6 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-12 flex items-center mx-auto" src="https://i.ibb.co/t4WPTMb/pngwing-com-3.png" alt="" />
-                        <h2 className="text-white font-bold">React JS</h2>
+                        <h2 className="text-white font-medium text-sm">React JS</h2>
                     </div>
                     <div className=" items-center text-center space-y-4 bg-[#1d2e07] py-5 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-12 flex items-center mx-auto" src="https://i.ibb.co/yY5nc9w/pngwing-com-1.png" alt="" />
-                        <h2 className="text-white font-bold">Next JS</h2>
+                        <h2 className="text-white font-medium text-sm">Next JS</h2>
                     </div>
                     <div className=" items-center text-center space-y-4 bg-[#1d2e07] py-5 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-12 flex items-center mx-auto" src="https://i.ibb.co/gjNZBfF/pngwing-com-2.png" alt="" />
-                        <h2 className="text-white font-bold">Node JS</h2>
+                        <h2 className="text-white font-medium text-sm">Node JS</h2>
                     </div>
                     <div className=" items-center text-center space-y-4 bg-[#1d2e07] py-5 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-12 flex items-center mx-auto" src="https://i.ibb.co/B3PJrsh/pngwing-com-6.png" alt="" />
-                        <h2 className="text-white font-bold">Express JS</h2>
+                        <h2 className="text-white font-medium text-sm">Express JS</h2>
                     </div>
                     <div className=" items-center text-center space-y-4 bg-[#1d2e07] py-5 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-12 flex items-center mx-auto" src="https://i.ibb.co/dKLB4zZ/pngwing-com-3.png" alt="" />
-                        <h2 className="text-white font-bold">MongoDB</h2>
+                        <h2 className="text-white font-medium text-sm">MongoDB</h2>
                     </div>
                     <div className=" items-center text-center space-y-4 bg-[#1d2e07] py-5 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-12 flex items-center mx-auto" src="https://i.ibb.co/MkBFfZk/pngwing-com.png" alt="" />
-                        <h2 className="text-white font-bold">Redux</h2>
+                        <h2 className="text-white font-medium text-sm">Redux</h2>
                     </div>
                     <div className=" items-center text-center space-y-4 bg-[#1d2e07] py-5 rounded-3xl hover:bg-[#4d7020] hover:scale-110 hover:transition-all">
                         <img className="w-12 flex items-center mx-auto" src="https://i.ibb.co/BGj0n1V/pngwing-com-4.png" alt="" />
-                        <h2 className="text-white font-bold">Firebase</h2>
+                        <h2 className="text-white font-medium text-sm">Firebase</h2>
                     </div>
                 </div>
 

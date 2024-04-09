@@ -22,12 +22,15 @@ const Banner = () => {
 
 
                     </div>
-                    <div className='mt-6 text-center flex items-center gap-4'>
+                    <div className='mt-6 text-center lg:flex md:flex items-center gap-4'>
+                        <div>
                         <a href={resume} download={'resume.pdf'}>
                             <button type="button" className="bg-[#91ff00] border-2 border-[#91ff00] px-4 py-2 text-black font-semibold rounded-3xl hover:border-2 hover:border-[#91ff00] hover:bg-[#91ff00] hover:bg-opacity-10 hover:text-white flex items-center gap-2">
                                 Resume <FaFileDownload />
                             </button>
                         </a>
+                        </div>
+                        <div className="flex gap-4 lg:mt-0 md:mt-0 mt-4">
                         <a href="https://github.com/mrromanmiah">
                             <button type="button" className="bg-[#91ff00] border-2 border-[#91ff00] p-2  text-black font-semibold rounded-full hover:border-2 hover:border-[#91ff00] hover:bg-[#91ff00] hover:bg-opacity-10 hover:text-[#91ff00] flex items-center gap-2">
                                 <FaGithub />
@@ -48,21 +51,7 @@ const Banner = () => {
                                 <FaFacebookF />
                             </button>
                         </a>
-
-
-                        {/* <a href="https://www.linkedin.com/in/romanmiah/">
-                            <FaSquareGit  />
-                        </a>
-                        <a href="https://www.linkedin.com/in/romanmiah/">
-                            <FaLinkedinIn />
-                        </a>
-                        <a href="https://twitter.com/SakirAhmedRoman">
-                            <FaXTwitter />
-                        </a>
-                        <a href="https://www.facebook.com/sakirroman">
-                            <FaFacebookF />
-                        </a> */}
-
+                        </div>
                     </div>
                 </div>
             </div>
